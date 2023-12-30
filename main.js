@@ -16,6 +16,6 @@ mySGPA = () => {
 myPercentage = () => {
   let a = document.getElementById("score").value;
   let b = document.getElementById("totalMark").value;
-  let c = (a /100 ) * b;
+  let c = a /100* b;
   document.getElementById("answer").innerHTML = c;
 };
