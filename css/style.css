@@ -59,7 +59,7 @@ button {
   margin: 10px 0;
   cursor: pointer;
   border-radius: 4px;
-  width: 100%; /* Make the button take 100% width */
+  width: 65%; /* Make the button take 100% width */
 }
 
 button:hover {
