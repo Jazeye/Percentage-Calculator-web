@@ -7,6 +7,17 @@ body {
   justify-content: center;
   height: 100vh;
 }
+/* respovive */
+@media (max-width: 800px) {
+  body {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    top: 30px;
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+}
 
 .content {
   background-color: #fff;
